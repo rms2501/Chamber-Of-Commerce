@@ -1,0 +1,106 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(/images/bg\ pattern.png);
+  }
+  
+  .adjust {
+    zoom: 130%;
+  }
+  .container-fluid {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  
+  #event {
+    background-color: #76bfda;
+    color: #ffffff;
+    letter-spacing: 0.065em;
+    font-weight: bold;
+    font-size: 4.39vw;
+    margin-top: 1.5vw;
+    margin-bottom: 0.5vw;
+  
+    text-shadow: 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25);
+    box-shadow: 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
+      0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.53vw;
+  }
+  
+  .status1 {
+    position: relative;
+    width: 23vw;
+    margin-top: 12.88vw;
+    margin-left: 11.32vw;
+    padding: 1.9vw;
+    text-align: center;
+    letter-spacing: 0.065em;
+    line-height: 3.29vw;
+    background-color: #76bfda;
+    font-weight: normal;
+    font-size: 2.89vw;
+    border-radius: 0.8vw;
+  }
+  
+  .lines {
+    border: 0.07vw dashed #ffffff;
+    transform: rotate(180deg);
+    width: 5vw;
+    top: 0.7vw;
+    position: relative;
+    z-index: -1;
+    margin: 0.14vw;
+    left: -0.09vw;
+  }
+  
+  .verticalLines {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(90deg);
+    align-items: center;
+    z-index: -1;
+    width: 83vw;
+    height: 5.6vw;
+  }
+  
+  .circle1 {
+    z-index: 1;
+    font-weight: bold;
+    font-size: 2.9vw;
+    line-height: 3.07vw;
+    text-align: center;
+    letter-spacing: 0.065em;
+    background: #76bfda;
+    border: 0.73vw solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 17.42vw;
+    width: 17.42vw;
+    display: flex;
+    align-items: center;
+    padding: 0.87vw;
+    margin-top: 12.88vw;
+    box-shadow: 0 0 1.87vw 1.3vw rgb(0 0 0);
+  }
+  
+  .dates {
+    background: #ffffff;
+    border-radius: 0.4vw;
+    position: relative;
+    left: -0.36vw;
+    width: 16vw;
+    z-index: -1;
+    height: 3.8vw;
+    text-align: center;
+    font-size: 2.7vw;
+  }
