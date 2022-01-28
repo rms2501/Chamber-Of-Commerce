@@ -5,6 +5,83 @@ body {
     font-family: "Montserrat", sans-serif;
     background-image: url(../images/bg\ pattern.png);
   }
+
+/* NAVBAR CSS */
+#mainNavbar {
+  font-size: 1rem;
+  font-weight: 900;
+  background-color: #005177;
+}
+.sticky-top {
+  background-color: #171717;
+  transition: background 0.5s;
+}
+#mainNavbar .navbar-nav {
+  margin-left: auto;
+}
+#mainNavbar .nav-link {
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: 500;
+}
+#mainNavbar .nav-item a img {
+  display: none;
+}
+#mainNavbar .nav-item:hover a img {
+  display: inline;
+}
+#mainNavbar .nav-item .btn1,.btn3{
+  color: #232323;
+  background-color: #76BFDA;
+}
+
+#mainNavbar .nav-item .btn1:hover,.btn3:hover{
+  color: #fff;
+  border: 1px solid white;
+  background-color: #005177;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.dropdown-toggle{
+  text-align: center;
+}
+.dropdown-menu{
+  background-color: #181717;
+  /* align-items: center; */
+}
+.dropdown-item:hover{
+  background-color: red;
+}
+
+@media only screen and (max-width:1200px) {
+  #mainNavbar .nav-item{
+    margin: auto;
+  }
+  
+}
+@media only screen and (max-width:767px) {
+  .hexa{
+    position: relative;
+    bottom: 600px;
+    left: 0px;
+    opacity: 0.5;
+    margin-bottom: -950px;
+    z-index: -1;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .hexa{
+    position: relative;
+    bottom: 600px;
+    left: 400px;
+    opacity: 0.5;
+    margin-bottom: -950px;
+    z-index: -1;
+  }
+}
   
   .adjust {
     zoom: 130%;
