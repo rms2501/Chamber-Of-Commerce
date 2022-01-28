@@ -21,7 +21,6 @@
     font-style: normal !important;
 }
 .cocqueryinput:placeholder-shown{
-    /*box-shadow: none !important;*/
     font-style: normal;
     font-weight: normal;
 }
