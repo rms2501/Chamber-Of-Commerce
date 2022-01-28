@@ -4,7 +4,7 @@ body {
     padding: 0px;
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
-    background-image: url(../images/bg\ pattern.png);
+    background-image: url(/images/bg\ pattern.png);
   }
 
 /* NAVBAR CSS */
