@@ -21,10 +21,10 @@ body {
     color: #ffffff;
     letter-spacing: 0.065em;
     font-weight: bold;
-    font-size: 4.39vw;
+    font-size: 3.0vw;
     margin-top: 1.5vw;
     margin-bottom: 0.5vw;
-  
+    padding: 0.5vw;
     text-shadow: 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
       0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
       0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25), 0vw 0.29vw 0.29vw rgba(0, 0, 0, 0.25),
