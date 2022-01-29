@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="css/cocasso&guidecss.css">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    
     <!--Main CSS-->
     <link href="css/main.css" rel="stylesheet">
@@ -59,10 +57,10 @@
            <a href="#timeline" class="nav-link">Timeline</a>
           </li>
           <li class="nav-item">
-            <a href="#ContactUs" class="nav-link">Contact Us</a>
+            <a href="#queries" class="nav-link">FAQ's</a>
            </li>
           <li class="nav-item">
-            <a href="#AskurQuery" class="nav-link">FAQ's</a>
+            <a href="#AskurQuery" class="nav-link" target="_blank">Contact Us</a>
           </li>
         </ul>
         <li class="nav-item d-none d-lg-block mr-4">
@@ -79,7 +77,7 @@
         
             <div class="text-center align-items-end d-none d-lg-block">
               <a class="btn btn1 my-4 px-4 mr-5 py-1 showcase-left" style="font-size: larger;" href="register.html" target="_blank" role="button">Register</a>
-            <a class="showcase-right1 my-4 px-4 py-1 btn2 mr-5 btn" style="font-size: larger;" href="documents/Chamber of Commerce Brochure.pdf" download="Chamber of Commerce Brochure"> Brochure</a>
+            <a class="showcase-right1 my-4 px-4 py-1 btn2 mr-5 btn" style="font-size: larger;" href="documents/Chamber of Commerce Brochure.pdf" target="_blank" role="button"> Brochure</a>
               
               
             </div>
@@ -150,7 +148,7 @@
           <div class="col-12 d-flex justify-content-center my-3" >
             <img class="d-sm-3 d-lg-6 " id="pic1" src="images/E-Cell_white.png" alt="" width="250px">
           </div>
-          <div class="mx-2 mb-4 pb-2" >
+          <div class="mx-2 my-0 pb-2" >
             <div class="col-sm-12 para text-white text-center" style="font-size:4vw;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
         </div>
       </div>
@@ -271,9 +269,9 @@
                 </div>
             </div>
             <div class="row align-items-center">
-            <div class="cocassoguiassociatecontainer col-lg-6">
+            <div class="cocassoguiassociatecontainer col-lg-6 my-4">
                 <img src="images/PNAFlogo_COCwebsite.png" class="rounded float-start pnafimg" alt="..."></div>
-                <div class="col-lg-5 container new px-4 text-center text-md-left mb-5">
+                <div class="col-lg-5 container new px-4 text-center text-md-left my-3">
                     CHAMBER OF COMMERCE is proudly conducted in association with the PAN NIT 
                         ALUMNI FORM (PNAF) an umbrella organization, covering alumni associations
                         and thereby alumni of all NITs, to evolve a brand "NIT that would provide strong 
@@ -287,7 +285,7 @@
         <div class="cocseparationline">
         </div>
     </section>
-
+    
     <section id="ContactUs" class="coccontactmain">
       <div class="coccontactheadingmainblock">
           <div class="coccontactusheading">
@@ -315,68 +313,81 @@
       <div class="cocseparationline">
       </div>
     </section>
-    
-    <section id="AskurQuery" class="cocquerybody">
-      <div>
-          <p class="text-center fw-bold fst-normal cocqueryhead">ASK YOUR QUERIES</p>
-      </div>
-      <div class="cocqueryformcontainer">
-          <form class="cocqueryform">
-              <div class="row g-5">
-                  <div class="col-md">
-                      <div class="form-floating mb-4">
-                          <input type="text" class="form-control cocqueryinput" id="queryName" name="floatingInput" placeholder="Name" required>
-                          <label for="floatingInput">Name*</label>
-                      </div>
-                      <div class="form-floating mb-4">
-                          <input type="email" class="form-control cocqueryinput" id="queryMail" name="floatingInput" placeholder="Email-address" required>
-                          <label for="floatingInput">E-mail*</label>
-                      </div>              
-                      <div class="form-floating mb-3">
-                          <input type="tel" class="form-control cocqueryinput" id="queryContact" name="floatingInput" placeholder="Phone-number*" required>
-                          <label for="floatingInput">Phone*</label>
-                      </div>
-                  </div>
-                  <div class="col-md">
-                      <div class="form-floating" style="height: 100%;">
-                          <textarea class="form-control cocqueryinput" placeholder="Message*" id="queryMsg" name="floatingTextarea" style="height: 92.8%" rows="10" required></textarea>
-                          <label for="floatingTextarea">Message*</label>
-                      </div>
-                  </div>
-              </div>
-              <div class="row g-5 cocquerybuttongap">
-                  <div class="d-grid gap-2 d-md-block cocquerybuttonmiddle">
-                      <input class="btn btn-primary btn-lg cocquerybutton" type="submit" value="Submit">
-                  </div>
-              </div>
-          </form>
-      </div>
 
-      <footer style="background-color:#005177;" id="footer">
-          <div class="row align-items-center">
-          <div class="col-md-1"></div>
-              <div class="col-md-3 text-center py-5">
-              <img src="images/E-Cell_white.png" alt="" width="150px">
-              <div class="icon">
-              <br> 
-              <span><a style="text-decoration: none;" href="https://m.facebook.com/vnitecell/" target="_blank"><i class="fab fa-facebook fa-2x row1 fb "></i></a></span>
-              <span><a style="text-decoration: none;" href="https://twitter.com/ecell_vnit" target="_blank"><i class="fab fa-twitter-square fa-2x row1 twitter"></i></a></span>
-              <span><a style="text-decoration: none;" href= "https://www.instagram.com/ecellvnit/" target="_blank"><i class="fab fa-instagram fa-2x row1 insta"></i></a></span>
-              <span><a style="text-decoration: none;" href=" https://www.linkedin.com/company/6615520/" target="_blank"><i class="fab fa-linkedin fa-2x row1 linkedin"></i></a></span>
-              <span><a style="text-decoration: none;" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
-      
-          </div>
-          </div>
-          <div class="col-md-4 text-white text-center foot1">
-              <p>For Association Opportunities and Queries Contact: <br>
-                  <a class="foot" href="mailto:contact@ecellvnit.org">contact@ecellvnit.org</a><br>
-                  <a class="foot" href="mailto:cocconso2022@gmail.com">cocconso2022@gmail.com</a>
-              </p>
-          </div>
-          <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
-          </div>
-      </footer>
-  </section>
+
+
+    <section id="AskurQuery" class="cocquerybody">
+        <div>
+            <p class="text-center fw-bold fst-normal cocqueryhead">ASK YOUR QUERIES</p>
+        </div>
+        <div class="cocqueryformcontainer">
+            <form class="cocqueryform" method="post" action="queries.php">
+                <div class="row g-5">
+                    <div class="col-md">
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control cocqueryinput" id="queryName" name="name"
+                                placeholder="Name" required>
+                            <label for="name">Name*</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="email" class="form-control cocqueryinput" id="queryMail" name="email"
+                                placeholder="Email-address" required>
+                            <label for="email">E-mail*</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control cocqueryinput" id="queryContact" name="phone"
+                                placeholder="Phone-number*" required>
+                            <label for="phone">Phone*</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating" style="height: 100%;">
+                            <textarea class="form-control cocqueryinput" placeholder="Message*" id="queryMsg"
+                                name="message" style="height: 92.8%" rows="10" required></textarea>
+                            <label for="message">Message*</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 cocquerybuttongap">
+                    <div class="d-grid gap-2 d-md-block cocquerybuttonmiddle">
+                        <input class="btn text-center btn-primary btn-lg cocquerybutton" name="submit" type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer style="background-color:#005177;" id="footer">
+            <div class="row align-items-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-3 text-center py-5">
+                    <img src="images/E-Cell_white.png" alt="" width="150px">
+                    <div class="icon">
+                        <br>
+                        <span><a style="text-decoration: none;" href="https://m.facebook.com/vnitecell/"
+                                target="_blank"><i class="fab fa-facebook fa-2x row1 fb "></i></a></span>
+                        <span><a style="text-decoration: none;" href="https://twitter.com/ecell_vnit" target="_blank"><i
+                                    class="fab fa-twitter-square fa-2x row1 twitter"></i></a></span>
+                        <span><a style="text-decoration: none;" href="https://www.instagram.com/ecellvnit/"
+                                target="_blank"><i class="fab fa-instagram fa-2x row1 insta"></i></a></span>
+                        <span><a style="text-decoration: none;" href=" https://www.linkedin.com/company/6615520/"
+                                target="_blank"><i class="fab fa-linkedin fa-2x row1 linkedin"></i></a></span>
+                        <span><a style="text-decoration: none;"
+                                href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i
+                                    class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-white text-center foot1">
+                    <p>For Association Opportunities and Queries Contact: <br>
+                        <a class="foot" href="mailto:contact@ecellvnit.org">contact@ecellvnit.org</a><br>
+                        <a class="foot" href="mailto:cocconso2022@gmail.com">cocconso2022@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot"
+                        href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
+            </div>
+        </footer>
+    </section>
 
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
