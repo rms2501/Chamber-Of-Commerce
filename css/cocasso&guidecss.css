@@ -52,7 +52,7 @@
 .cocassoguidelinecontentbox{
     list-style-type: symbols();
     list-style-image: url('../images/star-fill_bootstrapsvg.svg') !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
