@@ -111,8 +111,8 @@ body {
 }
   
   .adjust {
-    zoom: 110%;
-    margin-left: 7vw;
+    zoom: 100%;
+    margin-left: 14vw;
   }
   .container-fluid {
     margin-top: 0px;
@@ -218,4 +218,9 @@ body {
   html,body{
     overflow-x: hidden;
   }
+  .adjust {
+    zoom: 110%;
+    margin-left: 10vw;
+  }
+
 }
