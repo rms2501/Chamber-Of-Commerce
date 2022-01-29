@@ -12,9 +12,9 @@
     margin-bottom: 40px;
 }
 .cocqueryformcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .cocqueryform{
     font-family: 'Montserrat', sans-serif !important;
