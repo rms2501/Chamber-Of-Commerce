@@ -68,12 +68,12 @@ align-items: center;
         height: 85px;
     }
     #coccontactheadingtext{
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 40px;
+        line-height: 40px;
     }
     .coccontactimg{
-        width: 450px;
-        height: 450px;
+        width: 250px;
+        height: 250px;
     }
     .coccontactblock{
         font-size: 25px;
@@ -98,8 +98,8 @@ align-items: center;
         line-height: 30px;
     }
     .coccontactimg{
-        width: 300px;
-        height: 300px;
+        width: 120px;
+        height: 120px;
     }
     .coccontactblock{
         font-size: 30px;
@@ -123,8 +123,8 @@ align-items: center;
         line-height: 20px;
     }
     .coccontactimg{
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
     }
     .coccontactblock{
         font-size: 20px;
