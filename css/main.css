@@ -2,11 +2,11 @@ body {
 
     margin: 0px;
     padding: 0px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Lato", sans-serif;
+    background-image: url(../images/bg\ pattern.png);
     overflow-x: hidden;
+    background-size: 150vw auto;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://s3-alpha-sig.figma.com/img/80cf/5cd7/424b92fd138982f1b54459bfbdaebca5?Expires=1644192000&Signature=GAX1wMSBQPREC4MtFe6831bZlMeDYGYIQpN9XVaJ9d2Yqvd6xmHXWy9O7ANLbAhPrkq2jmQudmyLyCnNjDCqhKNgcWmfWtpA5QOYPrvCuNe~Ellqx0EmCsrevmn~GWT4-YvCboAw5PsRkcWxSyKOXvkajb3tTVV2fMkByaYnM~pxsqcztcEphGjYlZyE9ThCTlnIKDWxTCoYslfAUvKcQ1uh-PQ10-dVAwS19all-Tjwzgd~YmjqFWUib0typsOuQ2Yp~ds4S5fPRwhuAyX-mfp7HVfRupnqUkn0c8TxTyPZVWwevTt6IE8Jgk16vyHTvz2tJrkfaFfoAzhZNLYObA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
   }
 
 /* NAVBAR CSS */
@@ -33,19 +33,33 @@ body {
 #mainNavbar .nav-item:hover a img {
   display: inline;
 }
-#mainNavbar .nav-item .btn1,.btn3{
+.btn1,.btn3{
   color: #232323;
   background-color: #76BFDA;
   border-radius: 20px;
+  font-weight: 700;
 }
 
-#mainNavbar .nav-item .btn1:hover,.btn3:hover{
-  color: #fff;
-  border: 1px solid white;
-  background-color: #005177;
+.btn1:hover,.btn3:hover{
+  font-weight: 700;
+  color: #76BFDA;
+  border: 3px solid #76BFDA;
+  border-radius: 20px;
+  background-color: inherit;
   
 }
-
+.btn2{
+  font-weight: 700;
+  color: #76BFDA;
+  border: 3px solid #76BFDA;
+  border-radius: 20px;
+}
+.btn2:hover{
+  color: #232323;
+  background-color: #76BFDA;
+  border-radius: 20px;
+  font-weight: 700;
+}
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
@@ -60,7 +74,12 @@ body {
 .dropdown-item:hover{
   background-color: red;
 }
-
+.home{
+  background-color: #232323;
+}
+.new{
+  font-size: 1.5vw;
+}
 @media only screen and (max-width:1200px) {
   #mainNavbar .nav-item{
     margin: auto;
@@ -76,6 +95,9 @@ body {
     margin-bottom: -950px;
     z-index: -1;
   }
+  .new{
+    font-size: 4vw;
+  }
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
   .hexa{
@@ -90,7 +112,7 @@ body {
   
   .adjust {
     zoom: 110%;
-    margin-left: 5vw;
+    margin-left: 7vw;
   }
   .container-fluid {
     margin-top: 0px;
@@ -187,3 +209,13 @@ body {
     text-align: center;
     font-size: 2.7vw;
   }
+@media only screen and (max-width:768px) {
+  body{
+    background-image: url(../images/bg\ pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  html,body{
+    overflow-x: hidden;
+  }
+}
