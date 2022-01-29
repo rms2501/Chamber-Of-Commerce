@@ -72,6 +72,9 @@
         font-size: 40px;
         line-height: 40px;
     }
+    .cocdtopmargin{
+        margin-top: 20px !important;
+    }
     .cocassoguiassociatecontainer{
         margin-top: 100px;
         margin-bottom: 100px;
