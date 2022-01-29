@@ -18,7 +18,8 @@ $email=mysqli_real_escape_string($con, $_POST['email']);
 $college=mysqli_real_escape_string($con, $_POST['college']);
 $year = mysqli_real_escape_string($con, $_POST['year']);
 $phone = mysqli_real_escape_string($con, $_POST['phone']);
-
+$_SESSION['name'] = $name;
+ 
   $sql = "INSERT INTO cocentries (name, email, college, year, phone) VALUES ('$name', '$email', '$college', '$year', '$phone')";
    if ($con->query($sql) === TRUE) {
     // header('LOCATION:thanks.php');
